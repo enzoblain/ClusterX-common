@@ -6,7 +6,7 @@ pub struct Candle {
     pub open_time: i64,
     pub close_time: i64,
     pub symbol: String,
-    pub interval: String,
+    pub timerange: String,
     pub open: f64,
     pub close: f64,
     pub high: f64,
